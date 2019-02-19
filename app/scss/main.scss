@@ -9,13 +9,21 @@
     .text{
         margin: 50px 0 0 0;
     }
-    .email-input{
+    form{
         width: 50%;
+        margin: 0 auto;
+    }
+    .input{
+        width: 100%;
+        position: relative;
+    }
+    .email-input{
+        width: 100%;
         margin: 30px auto;
 
     }
     .btn-login{
-        width: 50%;
+        width: 100%;
         &:hover{
             opacity: .8;
         }
@@ -25,22 +33,19 @@
         color:gray    }
     .eye-icon{
         position: absolute;
-        top:54%;
-        right: 30%;
+        top: 18%;
+        right: 4%;
         i{
             color: darkgray;
         }
     }
     .pencil-icon{
         position: absolute;
-        top:45%;
-        right: 30%;
+        top: 18%;
+        right: 4%;
         i{
             color: darkgray;
         }
-    }
-    .sign{
-        top: 57.5%;
     }
     .show{
         display: block;
@@ -60,7 +65,25 @@
     }
 }
 
-
+@media only screen and (max-width: 600px) {
+    .center {
+     width: 100%!important;
+     box-shadow: none;
+     border: none;
+    }
+    .email-input{
+        font-size: 11px;
+    }
+    .btn-login{
+        font-size: 11px;
+    }
+    p{
+        font-size: 11px;
+    }
+    a{
+        font-size: 11px;
+    }
+  }
 
 
 

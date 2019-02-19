@@ -19,6 +19,18 @@
     "gulp-rsync": "0.0.8",
     "gulp-sass": "^4.0.2",
     "gulp-uglify": "^3.0.1",
-    "gulp-util": "^3.0.8"
-  }
+    "gulp-util": "^3.0.8",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BadalovT/ts-admin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BadalovT/ts-admin/issues"
+  },
+  "homepage": "https://github.com/BadalovT/ts-admin#readme"
 }
